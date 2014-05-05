@@ -1,0 +1,23 @@
+{
+  "name": "component-testling-ci-example",
+  "description": "testling ci + component example",
+  "version": "0.0.1",
+  "keywords": [
+    "example",
+    "testling"
+  ],
+  "dependencies": {
+    "yields/traverse": "*"
+  },
+  "development": {
+    "dependencies": {
+      "component/assert": "*"
+    }
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "repository": "chemzqm/component-testling-ci-example"
+}
