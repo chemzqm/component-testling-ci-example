@@ -3,7 +3,7 @@
   "description": "component testling ci example",
   "devDependencies": {
     "mocha": "*",
-    "component": "*"
+    "component": "^1.0.0-rc4"
   },
   "testling": {
     "harness": "mocha",
@@ -18,6 +18,11 @@
       "android-browser/latest"
     ],
     "preprocess": "make build",
-    "scripts": ["build/*.js", "test/*.js"]
+    "scripts": [
+      "build/*.js",
+      "test/*.js"
+    ]
+  },
+  "dependencies": {
   }
 }
